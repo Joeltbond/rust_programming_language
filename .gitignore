@@ -6,3 +6,7 @@
 
 # Unignore all dirs
 !*/
+/target
+**/*.rs.bk
+
+*/**/target
