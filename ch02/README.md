@@ -48,3 +48,10 @@ io::stdin().read_line(&mut guess)
   - `Result` is and _enum_ of `Ok` and `Err`
   - if `io::Result` is `Err`, `expect` will cause the program to crash with the message that you passed to it.
   - if you don't call `expect` you will get a warning about not handling potential errors.
+
+## Using a Crate to Get More Functionality
+- Rust doesn't come with a randome number generator for we ill need to add a crate
+- Add the rand crate under dependencies in Cargo.toml
+
+## Generating a Random Number
+- 
